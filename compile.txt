@@ -1,0 +1,3 @@
+flex arythmetic.l
+bison -d arythmetic.y
+gcc -o parser lex.yy.c arythmetic.tab.c
